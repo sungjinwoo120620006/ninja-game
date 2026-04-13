@@ -21,4 +21,16 @@
             # dòng lệnh để nó tự động cộng khi mình di chuyển key và giảm
             #self.screen.blit(self.img,self.img_pos)
             # dòng lệnh để vẽ hình ảnh lên màn hình
+# Vẽ hình ảnh nhân vật lên bề mặt (surface) tại vị trí hiện tại
+        #blit(self.game.assets['player'], (self.pos[0]-offset[0], self.pos[1]-offset[1]))
+
+
+# base_path = 'data/maps/map3/map2/TILED_files/'
+#         map_files = ['Map.tmx']
+#
+#         # self.level_maps = []
+#         # for f_name in map_files:
+#         #     full_path = base_path + f_name
+#         #     if os.path.exists(full_path):
+#         #         self.level_maps.append(TiledMap2(full_path))
 
